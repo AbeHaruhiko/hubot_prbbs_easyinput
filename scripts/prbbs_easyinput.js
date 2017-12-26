@@ -15,7 +15,7 @@ module.exports = (robot) => {
     const promise = easyinput.easyInput(user, pass, 'start', time);
     promise.then((result) => {
       console.log(result);
-      msg.send('出勤時刻: ' + result.intime + ', 退勤時刻: ' + result.outtime);
+      msg.send('出勤時刻: ${result.intime}, 退勤時刻: ${result.outtime}');
     });
   });
   robot.respond(/end (.+)/i, (msg) => {
@@ -26,7 +26,7 @@ module.exports = (robot) => {
     const promise = easyinput.easyInput(user, pass, 'end', time);
     promise.then((result) => {
       console.log(result);
-      msg.send('出勤時刻: ' + result.intime + ', 退勤時刻: ' + result.outtime);
+      msg.send('出勤時刻: ${result.intime}, 退勤時刻: ${result.outtime}');
     });
   });
 };
