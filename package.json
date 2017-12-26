@@ -18,7 +18,7 @@
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.1",
     "hubot-slack": "^4.4.0",
-    "prbbs_easyinput": "file:../prbbs_easyinput"
+    "prbbs_easyinput": "1.0.0"
   },
   "engines": {
     "node": "6.11.1"
