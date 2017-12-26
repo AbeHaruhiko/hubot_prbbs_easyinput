@@ -21,6 +21,6 @@
     "prbbs_easyinput": "git://github.com/AbeHaruhiko/prbbs_easyinput.git"
   },
   "engines": {
-    "node": "6.11.1"
+    "node": "7.10.1"
   }
 }
